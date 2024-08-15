@@ -1,0 +1,21 @@
+.product-detail {
+  height: calc(100vh - 68px);
+  top: 68px;
+}
+
+.show-product-detail {
+  display: flex;
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-fill-mode: forwards; /* Mantiene el estado final de la animación */
+}
+
+@keyframes slidein {
+  from {
+    width: 0px;
+  }
+
+  to {
+    width: 300px
+  }
+}
